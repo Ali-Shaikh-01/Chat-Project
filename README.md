@@ -105,21 +105,23 @@ You can either run locally or use the live demo.
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ali-Shaikh-01/Real-Time-Chat-Application.git
 ```
 
 2. Setup backend:
+  Go to the Folder; Open a terminal
 
 ```bash
-cd socketio-chat/server
+cd server
 npm install
 npm start
 ```
 
 3. Setup frontend:
+   Open another terminal in this folder
 
 ```bash
-cd ../client
+cd client
 npm install
 npm run dev
 ```
