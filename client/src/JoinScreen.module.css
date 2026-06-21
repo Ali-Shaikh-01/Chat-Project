@@ -3,18 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #0f0f0f;
+  background: #f5f7fb; 
   font-family: 'DM Sans', sans-serif;
 }
 
 .card {
-  background: #1a1a1a;
-  border: 1px solid #2a2a2a;
+  background: #ffffff; 
+  border: 1px solid #e5e7eb; 
   border-radius: 16px;
   padding: 40px 36px;
   width: 100%;
   max-width: 380px;
   text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
 }
 
 .logo {
@@ -25,13 +26,13 @@
 .title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #fff;
+  color: #111827; 
   margin: 0 0 6px;
 }
 
 .subtitle {
   font-size: 0.85rem;
-  color: #666;
+  color: #6b7280; 
   margin: 0 0 28px;
 }
 
@@ -45,28 +46,29 @@
 .label {
   font-size: 0.78rem;
   font-weight: 600;
-  color: #888;
+  color: #6b7280;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .input {
-  background: #111;
-  border: 1px solid #333;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
   border-radius: 8px;
   padding: 10px 14px;
-  color: #fff;
+  color: #111827;
   font-size: 0.95rem;
   outline: none;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .input:focus {
   border-color: #5b6cf9;
+  box-shadow: 0 0 0 2px rgba(91, 108, 249, 0.15);
 }
 
 .error {
-  color: #f87171;
+  color: #dc2626;
   font-size: 0.82rem;
   margin: 0;
 }
@@ -74,7 +76,7 @@
 .btn {
   margin-top: 8px;
   background: #5b6cf9;
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 8px;
   padding: 12px;
@@ -91,5 +93,5 @@
 .hint {
   margin-top: 20px;
   font-size: 0.78rem;
-  color: #444;
+  color: #9ca3af;
 }
